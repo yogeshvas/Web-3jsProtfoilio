@@ -1,6 +1,15 @@
 import { blue, green, pink, yellow } from "../utils";
 
 export const experiences = [
+    {
+    logo: "https://media.licdn.com/dms/image/D560BAQGqEqnGRNWyGw/company-logo_200_200/0/1703131443673/cubikin_logo?e=1721260800&v=beta&t=Iih_452n9GlV0GNU6AlTakXCorP94yDAr9rQ0pE8wlw",
+    name: "Cubik",
+    joined: "Apr'24",
+    end: "Present",
+    title: "Full Stack Developer",
+    bio: "Developing Application in React Native and Backened in NestJs",
+    color: blue,
+  },
   {
     logo: "https://gdsc-jiit128.tech/image%202.webp",
     name: "GDSC",
