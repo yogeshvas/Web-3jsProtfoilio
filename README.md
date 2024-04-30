@@ -1,6 +1,5 @@
-Portfolio Website.
-Built watching a tutorial on WEB-3 and threejs.
-# Web3Protfoilio
+
+# Threejs Protfoilio
 
 
 <img width="1680" alt="Screenshot 2024-03-22 at 3 09 22 PM" src="https://github.com/yogeshvas/Web3Protfoilio/assets/130190342/3a2b5032-e64a-4f74-ac69-c1e6c914ccbf">
