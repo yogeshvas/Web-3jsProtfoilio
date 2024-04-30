@@ -8,12 +8,16 @@ import { Carasoul, ProjectContainer } from "./Projects.styled";
 export const Projects = () => {
   const ref = useRef(null);
 
-  const moveLeft = (e) => {
-    console.log(ref.current.scrollLeft);
-    document.querySelector(".wrapper").scrollLeft += 600;
+  const moveLeft = () => {
+    if (ref.current) {
+      ref.current.scrollLeft -= 600;
+    }
   };
-  const moveRight = (e) => {
-    document.querySelector(".wrapper").scrollLeft -= 650;
+
+  const moveRight = () => {
+    if (ref.current) {
+      ref.current.scrollLeft += 600;
+    }
   };
 
   return (
@@ -26,7 +30,7 @@ export const Projects = () => {
         </div>
       </ProjectContainer>
       <Carasoul>
-        <NextButton flip onClick={moveRight} />
+        
         <NextButton onClick={moveLeft} />
       </Carasoul>
     </Page>

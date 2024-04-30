@@ -61,6 +61,7 @@ export const NextButton = ({ flip, onClick }) => {
           </>
         )}
       </svg>
+      <h3>Swipe</h3>
     </button>
   );
 };
