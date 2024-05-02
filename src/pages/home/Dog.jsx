@@ -17,8 +17,8 @@ const Dog = () => {
       <spotLight position={[5, 10, 7.5]} />
       <spotLight position={[-3, 10, -7.5]} />
       <pointLight color={"#f00"} position={[0, 0.6, 0]} distance="1.5" />
-      {isMobile ? null : <OrbitControls enableZoom={false} enablePan={false} />}
-      <primitive object={gltf.scene} scale={isMobile ? 2 : 1.2} ref={ref} />
+      {isMobile ? null : <OrbitControls enableZoom={true} enablePan={true} />}
+      <primitive object={gltf.scene} scale={isMobile ? 3 : 1.5} ref={ref} />
     </>
   );
 };
