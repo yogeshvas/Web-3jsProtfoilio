@@ -8,6 +8,13 @@ export const projects = [
     link: "https://github.com/yogeshvas/kalesh",
   },
   {
+    title: "Uber",
+    image:
+      "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_956,h_956/v1696243800/assets/62/3b076a-3406-4f3b-89de-2cf1a2ccb907/original/uber-one.jpg",
+    link: "https://github.com/yogeshvas/uber_with_googleApi",
+  },
+
+  {
     title: "Threads",
     image:
       "https://www.intego.com/mac-security-blog/wp-content/uploads/2023/07/Threads-app-icon-with-Instagram-colors-background-600x300-1.jpg",
